@@ -15,9 +15,25 @@
 
 
 
-A Laravel package for interacting with Tatum.io API endpoints.
+## Table of Contents
+- [Welcome!](#welcome)
+  - [What is Tatum?](#what-is-tatum)
+  - [Complete Documentation](#)
+- [Getting Started](#getting-started)
 
-## Installation
+## Welcome!
+
+This is Laravel wrapper for Tatum.io API endpoints version `1.0.0` based on API version `4.0`.
+
+### What is Tatum?
+
+Tatum offers a flexible framework to build, run, and scale blockchain apps fast. To learn more about the
+Tatum blockchain development framework, visit [our website](https://tatum.io/framework).
+
+The Tatum API features powerful endpoints that simplify a complex blockchain into single API requests. Code for all
+supported blockchains using unified API calls.
+
+## Getting Started
 
 You can install the package via Composer:
 

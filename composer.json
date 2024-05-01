@@ -1,0 +1,35 @@
+{
+    "name": "hopekelldev/laravel-tatum",
+    "description": "A Laravel 10 package for interacting with Tatum.io API endpoints.",
+    "type": "library",
+    "keywords": ["laravel", "tatum", "api", "HopekellDev", "PHP", "Laravel 10"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ezenwa Hopekell",
+            "email": "hopekelltech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.1",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HopekellDev\\LaravelTatum\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HopekellDev\\LaravelTatum\\TatumServiceProvider"
+            ],
+            "aliases": {
+                "Tatum": "HopekellDev\\LaravelTatum\\Facades\\Tatum"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

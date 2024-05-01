@@ -4,6 +4,8 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/hopekelldev/laravel-tatum.svg?style=flat-square)](https://packagist.org/packages/hopekelldev/laravel-tatum)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/HopekellDev/LaravelTatum/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/HopekellDev/LaravelTatum/)
 [![Requirements](https://img.shields.io/badge/php-%5E8.0-blue.svg?style=flat-square)](https://php.net)
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-orange.svg?style=flat-square)](https://laravel.com)
+
 
 A Laravel package for interacting with Tatum.io API endpoints.
 
